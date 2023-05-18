@@ -7,7 +7,7 @@ from __future__ import absolute_import
 # but it's too many lines and will probably crash rgbasm.
 
 import sys
-from . import extract_maps
+from redtools import extract_maps
 extract_maps.load_rom()
 spacing = "	"
 
